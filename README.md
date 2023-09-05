@@ -1,5 +1,3 @@
-# Emoji Replace [![Download][download-badge]][download-link] [![Support][support-badge]][support-link] [![PayPal][paypal-badge]][paypal-link] [![Patreon][patreon-badge]][patreon-link]
-
 [download-badge]: https://img.shields.io/badge/Download-%233a71c1.svg?style=flat&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAgCAYAAAAIXrg4AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAd5gAAHeYBMKt3fAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAE9SURBVEiJ7ZQ7TsNAFEWv06IAShOkEDD5UNCwB8RCWEYWAqkIYiEgZQERoqLgFz4hUIaC+tCM4cmyk4mxCyRfaSRL8+49781YI3kKOASmwBtw4OvzFnDJry58fZUlGGvme70IQCaVgBLwXwBADegDp0AjaxjQAAbACVCzG+fmGRgDYYJ5ZGpGCfuh80Ya/EwgqWpqQ0lDoLVE5y1JQ+eNVLUFXfdSWr0A7UUTAG1XazUFuvEudoFJrPAd2EsDuMZeY56PyJM0aqohDljU0Lzz7KSMbMMmJB9px/fStoFH/PWMuS9fyBbw4Bnu/cclQe7nhD8BO5nCDaQJ3CWEj/8cbiAbwI0JvwU2cwk3kDpw7FY91/BShSoAmpKOJK3knP0l6SwAriXt5xwe6SoAPiWtFgSYVST1JM2KCJfU+wadgFl0/0HGbQAAAABJRU5ErkJggg==
 [download-link]: https://mwittrien.github.io/downloader/?theme=EmojiReplace
 
@@ -12,37 +10,122 @@
 [patreon-badge]: https://img.shields.io/badge/Patreon-%23F96854.svg?style=flat&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAdhwAAHYcBj+XxZQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGBSURBVFiF7Za9ThtBFEbPBUpERWMwCorfJjY4aVLxBFHCKyCl4hWQUqVMBULmbfiRCNACqSJsDsXakjHGO8Y7ovFXrmbmO3NnZ74bqrzUeUR8HPP9mdQ60AZawCZQBwK4BC6ADnAUEZeTFhmnsxLjdfVAfXhl/rB66h/1QyUAalu9TzAe1Z26NROAutvf0VvVU7+/CUD9PKP5MMT2VADqhvqvAvOB7tQ1gIXXznpEP4HlxLEpWgH2AEInX0OLv/cUWKwQAKALbKZU4EsGc4AloJ0C8CmD+UDNFIBGRoBGCkAtI8B66i3IpccUgJuMANcpAKcZAc5SAE4yAnRSAA6BXgbzLnBUChARF8DvDAC/IuIqNYzqFYfRrVqDxDCKiL/AV6o5ikdgJyJuBrsrrcBQJX44W0/QVb+NLpoM0B/f6pdwWt2qL3NlWoD+nFV1X/2fYPxg0cCOfdJL+4ESkBqwDTQpQmuNoi2/onjAOsBxRFxPWmTqClSp9w6jOcAcYA7AE1OMk5ulhBZCAAAAAElFTkSuQmCC
 [patreon-link]: https://patreon.com/MircoWittrien
 
-Replaces Discord's Emojis with Emojis of a different Provider (Apple, Facebook...)
+[preview-gif]:      https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/_res/cover.gif
+[preview-apple]:    https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/_res/screenshot1.png
+[preview-facebook]: https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/_res/screenshot2.png
+[preview-google]:   https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/_res/screenshot3.png
+[preview-joypixels]:https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/_res/screenshot4.png
+[preview-microsoft]:https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/_res/screenshot5.png
+[preview-openmoji]: https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/_res/screenshot6.png
+[preview-samsung]:  https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/_res/screenshot7.png
+[preview-whatsapp]: https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/_res/screenshot8.png
 
+[discord]:          https://discord.gg/uy8nKQVatp
 
-Apple:
+[BetterDiscord]:    https://betterdiscord.app/
+[Replugged]:        https://replugged.dev/
+[Vencord]:          https://github.com/Vendicated/Vencord
 
-![screenshot1](https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/_res/screenshot1.png)
+[shield-donate]:    https://img.shields.io/badge/Donate-ko--fi-orange?style=flat-square&logo=kofi&logoColor=orange
+[ko-fi]:            https://ko-fi.com/saltssaumure "Buy me a coffee!"
 
-Facebook:
+[shield-asar-dl]:   https://img.shields.io/github/downloads/MiniDiscordThemes/EmojiReplace/net.saltssaumure.EmojiReplace.asar?color=purple&label=Downloads&style=flat-square
+[shield-repo-size]: https://img.shields.io/github/repo-size/MiniDiscordThemes/EmojiReplace?label=Repository&style=flat-square "Total size"
 
-![screenshot2](https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/_res/screenshot2.png)
+[github]:           https://github.com/MiniDiscordThemes/EmojiReplace
+[issues]:           https://github.com/MiniDiscordThemes/EmojiReplace/issues
+[license]:          https://github.com/MiniDiscordThemes/EmojiReplace/blob/main/LICENSE
+[.theme.css]:       https://github.com/mwittrien/BetterDiscordAddons/blob/master/Themes/EmojiReplace/EmojiReplace.theme.css
 
-Google:
+[er]:               https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/EmojiReplace
+[er-author]:        https://github.com/mwittrien
+[er-license]:       https://github.com/mwittrien/BetterDiscordAddons/blob/master/LICENSE
 
-![screenshot3](https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/_res/screenshot3.png)
+[release-bd]:       https://betterdiscord.app/theme/?id=48 "BetterDiscord store page"
+[release-rp]:       https://replugged.dev/store/net.saltssaumure.EmojiReplace "Replugged store page"
+[release-rp-gh]:    https://github.com/MiniDiscordThemes/EmojiReplace/releases/latest/download/net.saltssaumure.EmojiReplace.asar "Get latest release"
 
-JoyPixels:
+# Emoji Replace
+- DevilBro (original author): [![Download][download-badge]][download-link] [![Support][support-badge]][support-link] [![PayPal][paypal-badge]][paypal-link] [![Patreon][patreon-badge]][patreon-link]
+- Saltssaumure (this port): [![Buy me a coffee on ko-fi][shield-donate]][ko-fi] [![Replugged GitHub downloads][shield-asar-dl]][release-rp-gh] [![Total repository size][shield-repo-size]][github]
 
-![screenshot4](https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/_res/screenshot4.png)
+***Replaces Discord's Emojis with Emojis of a different Provider (Apple, Facebook...)***
 
-Microsoft:
+![Looping gif through every emoji set][preview-gif]
 
-![screenshot5](https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/_res/screenshot5.png)
+| Provider  | Preview                                |
+| --------- | -------------------------------------- |
+| Apple     | ![Apple emojis][preview-apple]         |
+| Facebook  | ![Facebook emojis][preview-facebook]   |
+| Google    | ![Google emojis][preview-google]       |
+| JoyPixels | ![JoyPixels emojis][preview-joypixels] |
+| Microsoft | ![Microsoft emojis][preview-microsoft] |
+| OpenMoji  | ![OpenMoji emojis][preview-openmoji]   |
+| Samsung   | ![Samsung emojis][preview-samsung]     |
+| WhatsApp  | ![WhatsApp emojis][preview-whatsapp]   |
 
-OpenMoji:
+## Installation
 
-![screenshot6](https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/_res/screenshot6.png)
+### [BetterDiscord][BetterDiscord]
+1. Download `EmojiReplace.theme.css`:
+    - [BetterDiscord store][release-bd]
+2. Place the file in the themes folder:
+    - `Settings` > `BetterDiscord` > `Themes` > `Open Themes Folder`
+3. Toggle on the theme card.
 
-Samsung:
+### [Replugged][Replugged]
+#### Automatic
+1. Click to install:
+    - [Replugged store][release-rp]
+#### Manual
+1. Download `net.saltssaumure.EmojiReplace.asar`:
+    - [GitHub][release-rp-gh]
+2. Place the file in the themes folder:
+    - `Settings` > `Replugged` > `Themes` > `Open Themes Folder`
+3. Click `Load Missing Themes` and toggle on the theme card.
 
-![screenshot6](https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/_res/screenshot7.png)
+### [Vencord][Vencord]
+#### Local
+1. Download `EmojiReplace.theme.css`:
+    - [BetterDiscord store][release-bd]
+2. Place the file in the themes folder:
+    - `Settings` > `Vencord` > `Themes` > `Local Themes` > `Open Themes Folder`
+3. Click `Load missing Themes` and toggle on the theme card.
+#### Online
+1. Paste the link in `Settings` > `Vencord` > `Themes` > `Online Themes`:
+    - `https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/EmojiReplace/EmojiReplace.theme.css`
 
-WhatsApp:
+## Customisation
+See [`EmojiReplace.theme.css`][.theme.css] for customisation details.
 
-![screenshot7](https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/_res/screenshot8.png)
+### BetterDiscord
+1. Open `Settings` > `BetterDiscord` > `Themes`.
+2. Click the pencil icon on this theme.
+3. Edit the import link and save changes.
+
+### Replugged
+1. Enable `Automatically Apply Quick CSS` in `Settings` > `Replugged` > `General`.
+2. Open `Settings` > `Replugged` > `Quick CSS`.
+3. Copy and paste lines 15-40 of [`TemEmojiReplaceplate.theme.css`][.theme.css].
+4. Edit the import link and save.
+
+### Vencord
+#### Local
+1. `Open Themes Folder` in `Settings` > `Vencord` > `Themes` > `Local Themes`
+2. Open `EmojiReplace.theme.css` with your favourite text editor.
+3. Edit the import link and save.
+#### Online
+1. `Enable Custom CSS` in `Settings` > `Vencord` > `Vencord` and click `Open QuickCSS File`.
+2. Copy and paste lines 15-40 of [`EmojiReplace.theme.css`][.theme.css].
+3. Edit the import link.
+
+## License
+[GNU General Public License v2.0][license]
+- <span title="Too long; didn't read; not a lawyer">TL;DR;NAL</span>: Do whatever you want with this theme, as long as you allow others to do the same with your version.
+
+### Includes
+- [EmojiReplace][er] by [DevilBro][er-author] - [GPL-2.0][er-license]
+
+## Questions or suggestions?
+- Post [an issue][issues] on GitHub.
+- Post in `#theme-support` on [my support server][discord].

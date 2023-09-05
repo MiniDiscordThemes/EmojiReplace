@@ -1,0 +1,37 @@
+{
+  "id": "net.saltssaumure.EmojiReplace",
+  "name": "EmojiReplace",
+  "description": "Replaces Discord's Emojis with Emojis of a different Provider (Apple, Facebook...)",
+  "author": [
+    {
+      "name": "DevilBro",
+      "discordID": "278543574059057154",
+      "github": "mwittrien"
+    },
+    {
+      "name": "Saltssaumure",
+      "discordID": "134142022092062720",
+      "github": "Saltssaumure"
+    }
+  ],
+  "version": "1.0.0",
+  "updater": {
+    "type": "store",
+    "id": "net.saltssaumure.EmojiReplace"
+  },
+  "license": "GPL-2.0",
+  "type": "replugged-theme",
+  "main": "scss/emoji.scss",
+  "source": "https://github.com/MiniDiscordThemes/EmojiReplace",
+  "image": [
+    "https://cdn.discordapp.com/attachments/1142305515439923260/1148504943804821535/cover.gif",
+    "https://cdn.discordapp.com/attachments/1142305515439923260/1148504941938343936/screenshot1.png",
+    "https://cdn.discordapp.com/attachments/1142305515439923260/1148504942265503794/screenshot2.png",
+    "https://cdn.discordapp.com/attachments/1142305515439923260/1148504942580072499/screenshot3.png",
+    "https://cdn.discordapp.com/attachments/1142305515439923260/1148504942856900629/screenshot4.png",
+    "https://cdn.discordapp.com/attachments/1142305515439923260/1148504943200841768/screenshot5.png",
+    "https://cdn.discordapp.com/attachments/1142305515439923260/1148504943477653535/screenshot6.png",
+    "https://cdn.discordapp.com/attachments/1142305515439923260/1148504941409861642/screenshot7.png",
+    "https://cdn.discordapp.com/attachments/1142305515439923260/1148504941690884127/screenshot8.png"
+  ]
+}

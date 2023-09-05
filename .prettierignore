@@ -1,0 +1,18 @@
+# Folders
+/.github
+/.parcel-cache
+/bundle
+/dist
+/node_modules
+/preview
+/emojis
+/spritesheets
+
+# File types
+*.md
+*.min.css
+*.theme.css
+
+# Files
+LICENSE
+pnpm-lock.yaml
