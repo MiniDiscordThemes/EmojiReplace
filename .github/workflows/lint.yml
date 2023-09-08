@@ -1,9 +1,6 @@
 name: Lint
 
 on:
-  push:
-    branches-ignore:
-      - deploy
   pull_request:
 
 jobs:

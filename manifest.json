@@ -1,27 +1,27 @@
 {
-  "id": "net.saltssaumure.EmojiReplace",
-  "name": "EmojiReplace",
-  "description": "Replaces Discord's Emojis with Emojis of a different Provider (Apple, Facebook...)",
+  "id": "net.saltssaumure.EmojiReplace-Apple",
+  "name": "EmojiReplace - Apple",
+  "description": "Replaces Discord (Twemoji) emojis with Apple emojis.",
   "author": [
-    {
-      "name": "DevilBro",
-      "discordID": "278543574059057154",
-      "github": "mwittrien"
-    },
     {
       "name": "Saltssaumure",
       "discordID": "134142022092062720",
       "github": "Saltssaumure"
+    },
+    {
+      "name": "DevilBro",
+      "discordID": "278543574059057154",
+      "github": "mwittrien"
     }
   ],
   "version": "1.0.0",
   "updater": {
     "type": "store",
-    "id": "net.saltssaumure.EmojiReplace"
+    "id": "net.saltssaumure.EmojiReplace-Apple"
   },
   "license": "GPL-2.0",
   "type": "replugged-theme",
-  "main": "scss/emoji.scss",
+  "main": "scss/Apple.scss",
   "source": "https://github.com/MiniDiscordThemes/EmojiReplace",
   "image": [
     "https://cdn.discordapp.com/attachments/1142305515439923260/1148504943804821535/cover.gif",
