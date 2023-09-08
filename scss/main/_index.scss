@@ -1,0 +1,33 @@
+@use "../vars";
+
+@mixin main($EMOJISET) {
+    @each $name, $selector in vars.$emojis {
+        /* #{$name} */
+        .image-3tDi44[src="/assets/#{$selector}.svg"],
+        .image-3tDi44[style*="#{$selector}"],
+        .emoji-4YP39J[src="/assets/#{$selector}.svg"],
+        .emoji-4YP39J[style*="#{$selector}"],
+        .emojiImage-1mTIfi[src="/assets/#{$selector}.svg"],
+        .emojiImage-1mTIfi[style*="#{$selector}"],
+        .image-2c9fiD[src="/assets/#{$selector}.svg"],
+        .image-2c9fiD[style*="#{$selector}"],
+        .icon-Yl4xbA[src="/assets/#{$selector}.svg"],
+        .icon-Yl4xbA[style*="#{$selector}"],
+        .emoji-1kNQp2[src="/assets/#{$selector}.svg"],
+        .emoji-1kNQp2[style*="#{$selector}"],
+        .roleIcon-3-WL_I[src="/assets/#{$selector}.svg"],
+        .roleIcon-3-WL_I[style*="#{$selector}"],
+        .emoji[src="/assets/#{$selector}.svg"],
+        .emoji[style*="#{$selector}"] {
+            background: transparent !important;
+            content: url("https://minidiscordthemes.github.io/EmojiReplace/emojis/#{$EMOJISET}/#{$name}.avif") !important;
+        }
+    }
+
+    @each $name, $selector in vars.$claps {
+        .diversityEmojiItemImage-1pfGqI[style*="#{$selector}"] {
+            background: transparent !important;
+            content: url("https://minidiscordthemes.github.io/EmojiReplace/emojis/#{$EMOJISET}/#{$name}.avif") !important;
+        }
+    }
+}
