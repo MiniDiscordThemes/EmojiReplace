@@ -1,4 +1,4 @@
-# Write pairs to new file
+# Write emojiset scss files
 emojiSets = ["Apple", "Facebook", "Google", "JoyPixels", "Microsoft", "OpenMoji", "Samsung", "Toss", "WhatsApp"]
 
 for emojiSet in emojiSets:

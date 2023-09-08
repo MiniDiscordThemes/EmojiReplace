@@ -1,6 +1,7 @@
 @use "../vars";
 
 @mixin main($EMOJISET) {
+    // Individual emojis
     @each $name, $selector in vars.$emojis {
         /* #{$name} */
         .image-3tDi44[src="/assets/#{$selector}.svg"],
@@ -24,10 +25,24 @@
         }
     }
 
+    // Diversity selector
     @each $name, $selector in vars.$claps {
+        /* #{$name} */
         .diversityEmojiItemImage-1pfGqI[style*="#{$selector}"] {
             background: transparent !important;
             content: url("https://minidiscordthemes.github.io/EmojiReplace/emojis/#{$EMOJISET}/#{$name}.avif") !important;
         }
+    }
+
+    // Spritesheets
+    @each $name, $selector in vars.$spritesheets {
+        /* #{$name}px */
+        .emojiSpriteImage-3ykvhZ[style*="#{$selector}"] {
+            background-image: url("https://minidiscordthemes.github.io/EmojiReplace/spritesheets/#{$EMOJISET}/#{$name}.avif") !important;
+        }
+    }
+    /* #{$name}px */
+    .sprite-2lxwfc {
+        background-image: url("https://minidiscordthemes.github.io/EmojiReplace/spritesheets/#{$EMOJISET}/picker_44.avif") !important;
     }
 }
