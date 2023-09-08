@@ -22,7 +22,12 @@
   },
   "type": "module",
   "dependencies": {
+    "@parcel/config-default": "^2.9.3",
+    "@parcel/core": "^2.9.3",
+    "@parcel/transformer-sass": "^2.9.3",
+    "@types/node": "^20.5.9",
     "prettier": "^3.0.3",
+    "replugged": "^4.6.2",
     "salt-bd-scss": "^1.1.0"
   }
 }
