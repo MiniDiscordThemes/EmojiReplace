@@ -14,7 +14,7 @@
       "github": "mwittrien"
     }
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "updater": {
     "type": "store",
     "id": "net.saltssaumure.EmojiReplace-Apple"
@@ -24,14 +24,6 @@
   "main": "scss/Apple.scss",
   "source": "https://github.com/MiniDiscordThemes/EmojiReplace",
   "image": [
-    "https://cdn.discordapp.com/attachments/1142305515439923260/1148504943804821535/cover.gif",
-    "https://cdn.discordapp.com/attachments/1142305515439923260/1148504941938343936/screenshot1.png",
-    "https://cdn.discordapp.com/attachments/1142305515439923260/1148504942265503794/screenshot2.png",
-    "https://cdn.discordapp.com/attachments/1142305515439923260/1148504942580072499/screenshot3.png",
-    "https://cdn.discordapp.com/attachments/1142305515439923260/1148504942856900629/screenshot4.png",
-    "https://cdn.discordapp.com/attachments/1142305515439923260/1148504943200841768/screenshot5.png",
-    "https://cdn.discordapp.com/attachments/1142305515439923260/1148504943477653535/screenshot6.png",
-    "https://cdn.discordapp.com/attachments/1142305515439923260/1148504941409861642/screenshot7.png",
-    "https://cdn.discordapp.com/attachments/1142305515439923260/1148504941690884127/screenshot8.png"
+    "https://cdn.discordapp.com/attachments/1142305515439923260/1148504941938343936/screenshot1.png"
   ]
 }
