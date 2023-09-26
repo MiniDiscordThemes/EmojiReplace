@@ -23,5 +23,8 @@
   "type": "replugged-theme",
   "main": "../../scss/root/WhatsApp.scss",
   "source": "https://github.com/MiniDiscordThemes/EmojiReplace",
-  "image": ["https://cdn.discordapp.com/attachments/1142305515439923260/1148504941938343936/screenshot1.png"]
+  "image": [
+    "https://cdn.discordapp.com/attachments/1142305515439923260/1156056407737643100/animated.avif",
+    "https://cdn.discordapp.com/attachments/1142305515439923260/1156056405971832913/whatsapp.png"
+  ]
 }
