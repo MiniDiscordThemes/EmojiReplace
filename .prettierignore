@@ -1,12 +1,10 @@
 # Folders
 /.github
-/.parcel-cache
 /bundle
 /dist
 /node_modules
 /preview
-/emojis
-/spritesheets
+/image
 
 # File types
 *.md

@@ -1,7 +1,7 @@
 {
-  "id": "net.saltssaumure.EmojiReplace-Apple",
-  "name": "EmojiReplace - Apple",
-  "description": "Replaces Discord (Twemoji) emojis with Apple emojis.",
+  "id": "net.saltssaumure.EmojiReplace-OpenMoji",
+  "name": "EmojiReplace - OpenMoji",
+  "description": "Replaces Discord (Twemoji) emojis with OpenMoji emojis.",
   "author": [
     {
       "name": "Saltssaumure",
@@ -14,16 +14,14 @@
       "github": "mwittrien"
     }
   ],
-  "version": "1.0.1",
+  "version": "1.0.0",
   "updater": {
     "type": "store",
-    "id": "net.saltssaumure.EmojiReplace-Apple"
+    "id": "net.saltssaumure.EmojiReplace-OpenMoji"
   },
   "license": "GPL-2.0",
   "type": "replugged-theme",
-  "main": "scss/Apple.scss",
+  "main": "../../scss/root/OpenMoji.scss",
   "source": "https://github.com/MiniDiscordThemes/EmojiReplace",
-  "image": [
-    "https://cdn.discordapp.com/attachments/1142305515439923260/1148504941938343936/screenshot1.png"
-  ]
+  "image": ["https://cdn.discordapp.com/attachments/1142305515439923260/1148504941938343936/screenshot1.png"]
 }
