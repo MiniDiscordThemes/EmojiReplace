@@ -55,6 +55,6 @@ jobs:
       - name: Release theme .asar
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "theme/bundle/**.asar"
+          artifacts: "theme/bundle/*"
           makeLatest: true
           generateReleaseNotes: true
