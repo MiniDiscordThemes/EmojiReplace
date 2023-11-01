@@ -10,20 +10,21 @@
   ],
   "license": "GPL-2.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "bd-scss dev",
+    "dev:bd": "bd-scss dev",
     "dev:rp": "replugged build theme --watch",
     "dev:vc": "bd-scss dev:vc",
-    "bd": "bd-scss build",
-    "rp": "replugged bundle theme",
-    "rp:all": "replugged bundle theme --all",
+    "build:bd": "bd-scss build",
+    "build:rp": "replugged bundle theme",
+    "build:rp:all": "replugged bundle theme --all",
     "lint": "prettier ./scss --check",
     "lint:fix": "prettier ./scss --write --log-level warn",
-    "release": "pnpm lint:fix && replugged release"
+    "release": "replugged release"
   },
-  "type": "module",
-  "dependencies": {
+  "devDependencies": {
     "prettier": "^3.0.3",
+    "replugged": "^4.7.4",
     "salt-bd-scss": "^1.1.0"
   }
 }

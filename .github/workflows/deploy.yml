@@ -1,4 +1,4 @@
-name: "Deploy images to GitHub Pages"
+name: Deploy images to GitHub Pages
 
 on:
   push:
@@ -7,16 +7,16 @@ on:
 
 jobs:
   build:
-    name: "Deploy"
-    runs-on: "ubuntu-latest"
+    name: Deploy
+    runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Git repository
-        uses: "actions/checkout@v2"
+      - name: Checkout theme
+        uses: actions/checkout@v2
 
-      - name: "Deploy"
-        uses: "peaceiris/actions-gh-pages@v3"
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: "deploy"
+          publish_branch: deploy
           publish_dir: "./image"
