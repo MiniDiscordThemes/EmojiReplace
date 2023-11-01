@@ -4,20 +4,20 @@
     // Individual emojis
     @each $name, $selector in vars.$emojis {
         /* #{$name} */
-        .image-3tDi44[src="/assets/#{$selector}.svg"],
-        .image-3tDi44[style*="#{$selector}"],
-        .emoji-4YP39J[src="/assets/#{$selector}.svg"],
-        .emoji-4YP39J[style*="#{$selector}"],
-        .emojiImage-1mTIfi[src="/assets/#{$selector}.svg"],
-        .emojiImage-1mTIfi[style*="#{$selector}"],
-        .image-2c9fiD[src="/assets/#{$selector}.svg"],
-        .image-2c9fiD[style*="#{$selector}"],
-        .icon-Yl4xbA[src="/assets/#{$selector}.svg"],
-        .icon-Yl4xbA[style*="#{$selector}"],
-        .emoji-1kNQp2[src="/assets/#{$selector}.svg"],
-        .emoji-1kNQp2[style*="#{$selector}"],
-        .roleIcon-3-WL_I[src="/assets/#{$selector}.svg"],
-        .roleIcon-3-WL_I[style*="#{$selector}"],
+        .image__7ab81[src="/assets/#{$selector}.svg"],
+        .image__7ab81[style*="#{$selector}"],
+        .emoji__92b46[src="/assets/#{$selector}.svg"],
+        .emoji__92b46[style*="#{$selector}"],
+        .emojiImage__152dd[src="/assets/#{$selector}.svg"],
+        .emojiImage__152dd[style*="#{$selector}"],
+        .image__6fed8[src="/assets/#{$selector}.svg"],
+        .image__6fed8[style*="#{$selector}"],
+        .icon_babf0a[src="/assets/#{$selector}.svg"],
+        .icon_babf0a[style*="#{$selector}"],
+        .emoji__32c91[src="/assets/#{$selector}.svg"],
+        .emoji__32c91[style*="#{$selector}"],
+        .roleIcon__59ca1[src="/assets/#{$selector}.svg"],
+        .roleIcon__59ca1[style*="#{$selector}"],
         .emoji[src="/assets/#{$selector}.svg"],
         .emoji[style*="#{$selector}"] {
             background: transparent !important;
@@ -28,7 +28,7 @@
     // Diversity selector
     @each $name, $selector in vars.$claps {
         /* #{$name} */
-        .diversityEmojiItemImage-1pfGqI[style*="#{$selector}"] {
+        .diversityEmojiItemImage__4387d[style*="#{$selector}"] {
             background: transparent !important;
             content: url("https://minidiscordthemes.github.io/EmojiReplace/emojis/#{$EMOJISET}/#{$name}.avif") !important;
         }
@@ -37,12 +37,12 @@
     // Spritesheets
     @each $name, $selector in vars.$spritesheets {
         /* #{$name}px */
-        .emojiSpriteImage-3ykvhZ[style*="#{$selector}"] {
+        .emojiSpriteImage__6363e[style*="#{$selector}"] {
             background-image: url("https://minidiscordthemes.github.io/EmojiReplace/spritesheets/#{$EMOJISET}/#{$name}.avif") !important;
         }
     }
     /* picker_44px */
-    .sprite-2lxwfc {
+    .sprite__294b3 {
         background-image: url("https://minidiscordthemes.github.io/EmojiReplace/spritesheets/#{$EMOJISET}/picker_44.avif") !important;
     }
 }
