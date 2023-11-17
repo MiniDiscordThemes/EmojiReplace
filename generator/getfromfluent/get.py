@@ -10,7 +10,15 @@ from datetime import datetime
 thisDir = os.path.dirname(__file__)
 assets = os.path.join("fluentui-emoji", "assets")
 designs = ["3D", "Color", "Flat", "High Contrast"]
-tones = {"Dark", "Medium-Dark", "Medium", "Medium-Light", "Light", "Default"}
+# designs = ["3D"]
+tones = {
+    "Dark": "_tone_5",
+    "Medium-Dark": "_tone_4",
+    "Medium-Light": "_tone_2",
+    "Light": "_tone_1",
+    "Default": "",
+    "Medium": "_tone_3"
+}
 assetsPath = os.path.join(thisDir, assets)
 emojiPaths = glob.glob(os.path.join(assetsPath, "**"))
 time = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
@@ -32,15 +40,22 @@ def getFileName(emojiPath, design):
     except Exception as error:
         logError(f"Error: {error}.")
         return None
+    
+def getNewFileName(origFileName):
+    newFileName = origFileName.replace("_3d", "")
+    for tone, toneNum in tones.items():
+        newFileName = newFileName.replace(f"_{tone.lower()}", toneNum)
+    return newFileName
 
 def copyFiles(emojiPath, designs):
     for design in designs:
-        fileName = getFileName(emojiPath, design)
-        if fileName == None:
-            continue
+        origFileName = getFileName(emojiPath, design)
+        if origFileName == None:
+            pass
         else:
-            origFilePath = os.path.join(emojiPath, design, fileName)
-            newFilePath = os.path.join(thisDir, "extracted", design, fileName)
+            newFileName = getNewFileName(origFileName)
+            origFilePath = os.path.join(emojiPath, design, origFileName)
+            newFilePath = os.path.join(thisDir, "extracted", design, newFileName)
             os.makedirs(os.path.dirname(newFilePath), exist_ok=True)
             shutil.copyfile(origFilePath, newFilePath)
 
@@ -49,10 +64,11 @@ def main():
         errorFile.write(f"{time}\n")
 
     for emojiPath in emojiPaths:
+        print(f"Copying files from {emojiPath}...")
         # Check if emoji folder has tone variants
         subpaths = {dir for dir in os.listdir(emojiPath) if dir != "metadata.json"}
-        if subpaths == tones:
-            for tone in tones:
+        if subpaths == tones.keys():
+            for tone in tones.keys():
                 emojiPathWithTone = os.path.join(emojiPath, tone)
                 # Non-default tones do not have high contrast version
                 if tone == "Default":
