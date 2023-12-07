@@ -1,7 +1,7 @@
 {
   "name": "emojireplace-discord-theme",
   "version": "1.2.0",
-  "description": "Replaces Discord (Twemoji) emojis with other vendors' emojis.",
+  "description": "Replaces Discord emojis with other vendors' emojis.",
   "repository": "github:MiniDiscordThemes/EmojiReplace",
   "author": "Saltssaumure <themes@saltssaumure.net>",
   "contributors": [
@@ -15,6 +15,7 @@
     "dev:bd": "bd-scss dev",
     "dev:rp": "replugged build theme --watch",
     "dev:vc": "bd-scss dev:vc",
+    "dev:vt": "bd-scss dev:vt",
     "build:bd": "bd-scss build",
     "build:rp": "replugged bundle theme",
     "build:rp:all": "replugged bundle theme --all",
@@ -23,8 +24,8 @@
     "release": "replugged release"
   },
   "devDependencies": {
-    "prettier": "^3.0.3",
-    "replugged": "^4.7.4",
-    "salt-bd-scss": "^1.1.0"
+    "prettier": "^3.1.0",
+    "replugged": "^4.7.7",
+    "salt-bd-scss": "^1.2.1"
   }
 }
