@@ -1,13 +1,14 @@
-[preview-animate]:  https://cdn.discordapp.com/attachments/1142305515439923260/1156056407737643100/animated.avif
-[preview-apple]:    https://cdn.discordapp.com/attachments/1142305515439923260/1156056406223487057/apple.png
-[preview-facebook]: https://cdn.discordapp.com/attachments/1142305515439923260/1156056406517100544/facebook.png
-[preview-google]:   https://cdn.discordapp.com/attachments/1142305515439923260/1156056406772940861/google.png
-[preview-joypixels]:https://cdn.discordapp.com/attachments/1142305515439923260/1156056407028805702/joypixels.png
-[preview-microsoft]:https://cdn.discordapp.com/attachments/1142305515439923260/1156056407276261446/microsoft.png
-[preview-openmoji]: https://cdn.discordapp.com/attachments/1142305515439923260/1156056407536304199/openmoji.png
-[preview-samsung]:  https://cdn.discordapp.com/attachments/1142305515439923260/1156056405506261062/samsung.png
-[preview-toss]:     https://cdn.discordapp.com/attachments/1142305515439923260/1156056405745348699/toss.png
-[preview-whatsapp]: https://cdn.discordapp.com/attachments/1142305515439923260/1156056405971832913/whatsapp.png
+[preview-animate]:  https://minidiscordthemes.github.io/EmojiReplace/preview/animated.avif
+[preview-apple]:    https://minidiscordthemes.github.io/EmojiReplace/preview/Apple.avif
+[preview-facebook]: https://minidiscordthemes.github.io/EmojiReplace/preview/Facebook.avif
+[preview-google]:   https://minidiscordthemes.github.io/EmojiReplace/preview/Google.avif
+[preview-joypixels]:https://minidiscordthemes.github.io/EmojiReplace/preview/JoyPixels.avif
+[preview-fluent2d]: https://minidiscordthemes.github.io/EmojiReplace/preview/Fluent2D.avif
+[preview-fluent3d]: https://minidiscordthemes.github.io/EmojiReplace/preview/Fluent3D.avif
+[preview-openmoji]: https://minidiscordthemes.github.io/EmojiReplace/preview/OpenMoji.avif
+[preview-samsung]:  https://minidiscordthemes.github.io/EmojiReplace/preview/Samsung.avif
+[preview-toss]:     https://minidiscordthemes.github.io/EmojiReplace/preview/Toss.avif
+[preview-whatsapp]: https://minidiscordthemes.github.io/EmojiReplace/preview/WhatsApp.avif
 
 [discord]:          https://discord.gg/uy8nKQVatp
 
@@ -31,7 +32,8 @@
 [release-rp-facebook]:  https://replugged.dev/store/net.saltssaumure.EmojiReplace-Facebook "Replugged store page"
 [release-rp-google]:    https://replugged.dev/store/net.saltssaumure.EmojiReplace-Google "Replugged store page"
 [release-rp-joypixels]: https://replugged.dev/store/net.saltssaumure.EmojiReplace-JoyPixels "Replugged store page"
-[release-rp-microsoft]: https://replugged.dev/store/net.saltssaumure.EmojiReplace-Microsoft "Replugged store page"
+[release-rp-fluent2d]:  https://replugged.dev/store/net.saltssaumure.EmojiReplace-Microsoft "Replugged store page"
+[release-rp-fluent3d]:  https://replugged.dev/store/net.saltssaumure.EmojiReplace-Fluent3D "Replugged store page"
 [release-rp-openmoji]:  https://replugged.dev/store/net.saltssaumure.EmojiReplace-OpenMoji "Replugged store page"
 [release-rp-samsung]:   https://replugged.dev/store/net.saltssaumure.EmojiReplace-Samsung "Replugged store page"
 [release-rp-toss]:      https://replugged.dev/store/net.saltssaumure.EmojiReplace-Toss "Replugged store page"
@@ -43,7 +45,7 @@
 [![Replugged GitHub downloads][shield-asar-dl]][release-rp-gh]
 [![Total repository size][shield-repo-size]][github]
 
-***A Replugged fork of [DevilBro][er-author]'s [EmojiReplace][er] - replaces Discord (Twemoji) emojis with other vendors' emojis.***
+***A Replugged fork of [DevilBro][er-author]'s [EmojiReplace][er] - replaces Discord emojis with other vendors' emojis.***
 
 ![Looping gif through every emoji set][preview-animate]
 
@@ -55,7 +57,8 @@
 | [Facebook][release-rp-facebook]   | ![Facebook emojis][preview-facebook]   |
 | [Google][release-rp-google]       | ![Google emojis][preview-google]       |
 | [JoyPixels][release-rp-joypixels] | ![JoyPixels emojis][preview-joypixels] |
-| [Microsoft][release-rp-microsoft] | ![Microsoft emojis][preview-microsoft] |
+| [Fluent 2D][release-rp-fluent2d]  | ![Fluent 2D emojis][preview-fluent2d]  |
+| [Fluent 3D][release-rp-fluent3d]  | ![Fluent 3D emojis][preview-fluent3d]  |
 | [OpenMoji][release-rp-openmoji]   | ![OpenMoji emojis][preview-openmoji]   |
 | [Samsung][release-rp-samsung]     | ![Samsung emojis][preview-samsung]     |
 | [Toss][release-rp-toss]           | ![Toss emojis][preview-toss]           |
@@ -70,7 +73,8 @@
     - [Facebook][release-rp-facebook]
     - [Google][release-rp-google]
     - [JoyPixels][release-rp-joypixels]
-    - [Microsoft][release-rp-microsoft]
+    - [Fluent 2D][release-rp-fluent2d]
+    - [Fluent 3D][release-rp-fluent3d]
     - [OpenMoji][release-rp-openmoji]
     - [Samsung][release-rp-samsung]
     - [Toss][release-rp-toss]
