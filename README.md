@@ -45,7 +45,7 @@
 [![Replugged GitHub downloads][shield-asar-dl]][release-rp-gh]
 [![Total repository size][shield-repo-size]][github]
 
-***A Replugged fork of [DevilBro][er-author]'s [EmojiReplace][er] - replaces Discord emojis with other vendors' emojis.***
+***A Replugged port of [DevilBro][er-author]'s [EmojiReplace][er] - replaces Discord emojis with other providers' emojis.***
 
 ![Looping gif through every emoji set][preview-animate]
 
@@ -80,7 +80,7 @@
     - [Toss][release-rp-toss]
     - [WhatsApp][release-rp-whatsapp]
 #### Manual
-1. Download `net.saltssaumure.EmojiReplace-<Vendor>.asar`:
+1. Download `net.saltssaumure.EmojiReplace-<Provider>.asar`:
     - [GitHub][release-rp-gh]
 2. Place the file in the themes folder:
     - `Settings` > `Replugged` > `Themes` > `Open Themes Folder`
