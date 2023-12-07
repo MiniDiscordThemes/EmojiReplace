@@ -12,11 +12,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev:bd": "bd-scss dev",
     "dev:rp": "replugged build theme --watch",
-    "dev:vc": "bd-scss dev:vc",
-    "dev:vt": "bd-scss dev:vt",
-    "build:bd": "bd-scss build",
     "build:rp": "replugged bundle theme",
     "build:rp:all": "replugged bundle theme --all",
     "lint": "prettier ./scss --check",
@@ -25,7 +21,6 @@
   },
   "devDependencies": {
     "prettier": "^3.1.0",
-    "replugged": "^4.7.7",
-    "salt-bd-scss": "^1.2.1"
+    "replugged": "^4.7.7"
   }
 }
