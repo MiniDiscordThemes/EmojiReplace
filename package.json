@@ -11,10 +11,6 @@
   "license": "GPL-2.0",
   "private": true,
   "type": "module",
-  "engines": {
-    "node": ">=18.0.0",
-    "pnpm": ">=8.0.0"
-  },
   "scripts": {
     "dev:rp": "replugged build theme --watch",
     "build:rp": "replugged bundle theme",
