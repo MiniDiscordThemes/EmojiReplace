@@ -4,20 +4,20 @@
     // Individual emojis
     @each $name, $selector in vars.$emojis {
         /* #{$name} */
-        .image__7ab81[src="/assets/#{$selector}.svg"],
-        .image__7ab81[style*="#{$selector}"],
+        .image__43623[src="/assets/#{$selector}.svg"],
+        .image__43623[style*="#{$selector}"],
         .emoji__92b46[src="/assets/#{$selector}.svg"],
         .emoji__92b46[style*="#{$selector}"],
-        .emojiImage__152dd[src="/assets/#{$selector}.svg"],
-        .emojiImage__152dd[style*="#{$selector}"],
-        .image__6fed8[src="/assets/#{$selector}.svg"],
-        .image__6fed8[style*="#{$selector}"],
-        .icon_babf0a[src="/assets/#{$selector}.svg"],
-        .icon_babf0a[style*="#{$selector}"],
+        .emojiImage__5f111[src="/assets/#{$selector}.svg"],
+        .emojiImage__5f111[style*="#{$selector}"],
+        .image__10784[src="/assets/#{$selector}.svg"],
+        .image__10784[style*="#{$selector}"],
+        .icon_a88807[src="/assets/#{$selector}.svg"],
+        .icon_a88807[style*="#{$selector}"],
         .emoji__32c91[src="/assets/#{$selector}.svg"],
         .emoji__32c91[style*="#{$selector}"],
-        .roleIcon__59ca1[src="/assets/#{$selector}.svg"],
-        .roleIcon__59ca1[style*="#{$selector}"],
+        .roleIcon__92480[src="/assets/#{$selector}.svg"],
+        .roleIcon__92480[style*="#{$selector}"],
         .emoji[src="/assets/#{$selector}.svg"],
         .emoji[style*="#{$selector}"] {
             background: transparent !important;
@@ -28,7 +28,7 @@
     // Diversity selector
     @each $name, $selector in vars.$claps {
         /* #{$name} */
-        .diversityEmojiItemImage__4387d[style*="#{$selector}"] {
+        .diversityEmojiItemImage__644ce[style*="#{$selector}"] {
             background: transparent !important;
             content: url("https://minidiscordthemes.github.io/EmojiReplace/emojis/#{$EMOJISET}/#{$name}.avif") !important;
         }
@@ -37,7 +37,7 @@
     // Spritesheets
     @each $name, $selector in vars.$spritesheets {
         /* #{$name}px */
-        .emojiSpriteImage__6363e[style*="#{$selector}"] {
+        .emojiSpriteImage_ebfd77[style*="#{$selector}"] {
             background-image: url("https://minidiscordthemes.github.io/EmojiReplace/spritesheets/#{$EMOJISET}/#{$name}.avif") !important;
         }
     }
