@@ -40,6 +40,8 @@
 [release-rp-whatsapp]:  https://replugged.dev/store/net.saltssaumure.EmojiReplace-WhatsApp "Replugged store page"
 [release-rp-gh]:        https://github.com/MiniDiscordThemes/EmojiReplace/releases/latest "Get latest release"
 
+# ⚠️ Discontinued due to high maintenance and low usage. Please use the original instead.
+
 # Emoji Replace
 [![Buy me a coffee on ko-fi][shield-donate]][ko-fi]
 [![Replugged GitHub downloads][shield-asar-dl]][release-rp-gh]
